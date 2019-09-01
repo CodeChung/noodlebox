@@ -1,0 +1,383 @@
+* {
+    font-family: 'Raleway';
+    color: #fff;
+    background: #000;
+}
+
+/* navbar */
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 8px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+/* video background */
+
+.video-background {
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+#real-food {
+    text-align: center;
+}
+
+hr {
+    background: rgba(211, 211, 211, 0.356);
+}
+
+h3.grey {
+    font-weight: 800;
+    letter-spacing: .2em;
+    font-size: 36px;
+    color: rgba(198,195,195,.5);
+}
+
+#real-food ul li {
+    list-style: none;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.desc-block {
+    padding: 40px;
+}
+
+.row-flex-1 {
+    display: flex;
+    justify-content: center;
+    padding-top : 40px;
+    flex-flow: wrap;
+}
+
+
+/* carousel */
+
+.carousel {
+    padding: 60px 0;
+}
+
+.carousel-inner {
+    height: 80vh;
+}
+
+/* our menu */
+
+.menu {
+    text-align: center;
+}
+
+.menu h3 {
+    line-height: 40px;
+}
+
+.menu-block {
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.356);
+}
+
+.menu-block ul li {
+    list-style: none;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 10px;
+}
+.menu-block ul li img {
+    border: 0;
+    margin: 0;
+}
+
+.delivery {
+    margin-top: 30px;
+    padding: 25px 46px;
+    font-size: 20px;
+    font-weight:600;
+    font-style:normal;
+    letter-spacing:1px;
+    color:#fff;
+    background-color:#272727;
+    border-color: #272727;
+}
+
+.list-thin {
+    font-weight: 300;
+}
+
+/* carousel 2 */
+
+#carousel-2 .carousel-inner {
+    height: 90vh;
+}
+
+/* story */
+
+#story {
+    text-align: center;
+}
+#story p {
+    padding-bottom: 30px;
+    font-size: 15px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+}
+#story h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* footer */
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.icons i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer p {
+    padding: 20px;
+    font-size: 14px;
+    color: rgba(255,255,255,.4);
+}
+
+/* franchising */
+.iframe-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.food-revolution iframe {
+    width: 50%;
+    height: 50%;
+}
+
+.red {
+    color: red;
+}
+
+#franch hr {
+    margin: 60px 0;
+}
+
+#franch ul {
+    padding-left: 25px;
+}
+
+#franch ul li {
+    padding: 10px;
+}
+.links {
+    margin-top: 40px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 80px;
+}
+.delivery-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-flow: wrap;
+}
+.skipdish {
+    padding-right: 130px;
+}
+
+/* locations */
+
+#location {
+    padding: 80px 0;
+}
+
+#location {
+    text-align: center;
+}
+
+#location h2 {
+    padding: 60px;
+}
+
+#location p {
+    padding: 0;
+    margin: 0;
+}
+#location br {
+    line-height: 3px;
+}
+.text-block {
+    padding: 10px;
+}
+#location .col-md-4 {
+    padding-bottom: 50px;
+}
+
+/* rewards */
+#rewards {
+    padding: 90px;
+    text-align: center;
+}
+#iphone {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.app {
+    width: 75%;
+    padding: 20px;
+}
+#rewards ol {
+    padding-left: 15px;
+}
+.terms {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight:600;
+    font-style:normal;
+    letter-spacing:1px;
+    color:#fff;
+    background-color:#272727;
+    border-color: #272727;
+    border-radius: 50px;
+}
+.terms a {
+    color: white;
+}
+/* media queries */
+
+@media only screen and (max-width: 991px){
+    .row-flex-1 ul {
+        padding-left: 0;
+    }
+    a.carousel-control-next {
+        display: none;
+    }
+    a.carousel-control-prev {
+        display: none;
+    }
+    h3 {
+        padding-bottom: 30px;
+    }
+    .menu-block ul {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .menu-block ul li {
+        text-align: center;
+    }
+    .carousel {
+        width: 100%;
+        height: auto;
+    }
+    .desc-block {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .menu-list ul li {
+        text-align: center;
+    }
+    .content img {
+        width: 100%;
+    }
+    .content {
+        text-align: center;
+    }
+    .food-revolution iframe {
+        width: 80%;
+        height: 50%;
+    }
+    #franch h2 {
+        text-align: center;
+    }
+    #rewards {
+        padding: 45px;
+    }
+    #reward {
+        width: 75%;
+    }
+    #iphone {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px){ 
+    .desc-block {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .food-revolution iframe {
+        width: 90%;
+        height: 40%;
+    }
+    .delivery-buttons {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .delivery-button a {
+        margin-top: 30px;
+    }
+    .skipdish {
+        padding-right: 0;
+    }
+    #reward {
+        width: 90%;
+    }
+    #iphone {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .desc-block {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-nav li a {
+        font-size: 12px;
+    }
+    .terms {
+        font-size: 10px;
+    }
+    #rewards p {
+        font-size: 14px;
+    }
+}
